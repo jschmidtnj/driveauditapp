@@ -1,0 +1,24 @@
+service: default
+runtime: go
+#instance_class: F1 #only allowed with the automatic scaling value
+env: flex
+
+#automatic_scaling:
+#  target_cpu_utilization: .65
+#  min_instances: 1
+#  max_instances: 5
+#aparently, automatic scaling is enabled by default, and the documentation is all wrong! see:
+#https://stackoverflow.com/questions/35416319/how-to-set-automatic-scaling-in-google-cloud-managed-vm
+# This sample incurs costs to run on the App Engine flexible environment.
+# The settings below are to reduce costs during testing and are not appropriate
+# for production use. For more information, see:
+# https://cloud.google.com/appengine/docs/flexible/python/configuring-your-app-with-app-yaml
+
+manual_scaling:
+  instances: 2
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
+#see https://stackoverflow.com/questions/32926142/app-engine-automatic-scaling-configuration

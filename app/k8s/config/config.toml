@@ -1,0 +1,21 @@
+server="smtp.gmail.com"
+port=587
+email="joshuanschmidt@gmail.com"
+password="Agent001!"
+recipient="joshuanschmidt@gmail.com"
+recipientname="Joshua"
+subject="Immediate Attention Required"
+maxResults=500
+threshold=50
+expire=60
+seconds_between_api=15
+count_between_check=200
+service_account_email="94904041740-compute@developer.gserviceaccount.com"
+service_account_private_key="-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzCdLobhcD+pCP\n5Lp79ZMtRpd4HwXZj5/K3KzQFU3/RKE3o8chIQGg/4osaouB2GhnQUgSiCxS/Ba7\nQ5OieJxm31d2pBisq0RgWZlvS0oaKCd8OK9cevsESCbqB55ObPpkXBnLkh17KA8H\n40vqLcmUPo9miqf6JLGD8frLXdE2dzh2+y7K426KBj686nQFKA+khjflqhfwrTmV\no/FRrOG5FNyxcQ2V9xmx+E1Jyz3zwseKFY8L3CfkXu7XJ59I5Cq6w/p5znap8Arv\nws3eIOQTMjTSdVSR+riherGSRNsdDJR+IYqBmb8AEqOsR1RJpRa/BK8TFMMmUXFX\nm8kil7xNAgMBAAECggEATLTsSk4EiV1ce3H9Xeewp2jDs6DjAjvxM9qJJdvC35fZ\nVLvUMILyLjbdzbrWS4ra7EZBaUMzblh4KsJAqg7vv3l4ASo8MhpswLUSsma4+Gz0\nwdmNdFtyWXrKRWF/N02kl8QH/zp6bA4VJoWBPHNilqOZD89fOaJn9caCc4gd/y2r\n+kylEtfmLxtwMTez2ypzHcHndiTHrLWrXG65NCZngATaXGbc4uK3sZqeIgN6Tu0f\n7EwDaaq8Xmcw6SaSr+i3hjmfM5shc76cSFtNo7Q+rGD1eMaWZ7zZJkIcqe8zQRef\nk+XpNJwwO396tKeeI7pGE8FZ1g1v9Z7JWiktPNCUlwKBgQDppUjxmGQvyMPkpLts\ntvBeOs45itlDbGMgCMUZ40xcnKeYZkwoQdxluJV+/goPHDg1XGPm9+JK3kCcDSpK\nnQC68uVo0EJAcxfADbpglR3SYgn0JgXfL40WlV8+ZIp5M/fTnN3yermfOKjgiAiV\nmgdUGL1kFkcZf76jx3ZfHVfKUwKBgQDEKwkXcVDCpnUxGgfqJ3iHMYT/oE0PPJ6r\n08Zg6qURJhsuJ4epLfFjJE/ZTJ6oS1mMdnEDVNb1HXZ2RTpsNA5dtMtxCwgHV+Yq\nCvECWAP7YYC1wqPYSTP0FXDiXkGQGcAUXegdUSVcwPTGwV/K2ZH94A4x7MlN9R8L\npKoTh4PK3wKBgHV7B297WbzxLRa1ggxK/BfVZ8ZlO5N8V2dPIZQ/xzC2EEs//MEt\nRJ3dL0ZYhEROwzCJkS4crCtLD5+nuwEjaq+V3KZUOUvg0ytde75+nC0h4LFjwQYV\nCdM2LlrYAQyqhc1gjfUTomwd+ERWAkL+3Pp7Khe+X+fBZOFDNRDkVzVDAoGBAJV2\nKKYo2xyDkTTJHZClZCq1ax0M+MmMKWTHpRVAkmXff8QJsE4RSCJ+jywEOboGNwNT\nVsXwBRuayCBSnLHGc8+nqX3GpuZZbW9JCNn9T4NfhZ523zkyhRgKogiHQjLVu8iI\nyApWQj5KcfVhbmfyn04sQQR+4d24zl+jpUXd8WdHAoGAaO/AdWurgBRoIvd3EOf8\nbZv7DClAyARF0joWstyN552oVKjKjLEWFuMDBCvrBXtqcTtN+rOkFxnKgBUBXvpJ\nXD7jKoGIgSWP5CavjaBhiA8n0Uofb6g36+hjBC8EP4MKsG6V9qfp+ijMG7k9kI32\n9RNjeK2/5DMaRtzt/wMaqR4=\n-----END PRIVATE KEY-----\n"
+service_account_scopes=["https://www.googleapis.com/auth/bigquery","https://www.googleapis.com/auth/drive","https://www.googleapis.com/auth/admin.reports.audit.readonly","https://www.googleapis.com/auth/admin.reports.usage.readonly",]
+token_refresh_count=100
+mongo_URI="mongodb://joshua:Agent006@testdata-shard-00-00-ug6sv.gcp.mongodb.net:27017,testdata-shard-00-01-ug6sv.gcp.mongodb.net:27017,testdata-shard-00-02-ug6sv.gcp.mongodb.net:27017/test?replicaSet=testdata-shard-0&authSource=admin"
+count_between_log_reset=1000
+database_name="driveapp"
+user_data_collection="driveusers"
+Suspect_Data_Collection="badusers"
