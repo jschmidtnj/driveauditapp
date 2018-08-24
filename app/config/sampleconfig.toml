@@ -1,0 +1,33 @@
+sender_name=                   "IT Admin"
+mail_public_key=               "key"
+mail_private_key=              "key"
+email=                         "sendemailadmin@example.com"
+recipient=                     "googlegroup@example.com"
+recipient_name=                "Josh"
+subject=                       "Immediate Attention Required"
+maxResults=                    1000 #per request
+threshold=                     1000 #drive downloads (etc)
+expire=                        20 #minutes
+seconds_between_api=           25
+count_between_check=           1
+service_account_email=         "externaldrive@project.iam.gserviceaccount.com"
+service_account_private_key=   "-----BEGIN PRIVATE KEY-----\nKEY\n-----END PRIVATE KEY-----\n"
+service_account_scopes=        ["https://www.googleapis.com/auth/admin.reports.audit.readonly","https://www.googleapis.com/auth/admin.reports.usage.readonly"]
+token_refresh_count=           300
+mongo_uri=                     "mongodb://admin:password@cluster.gcp.mongodb.net:27017,cluster0.gcp.mongodb.net:27017,cluster0.gcp.mongodb.net:27017/test?replicaSet=Cluster0-shard-0&authSource=admin"
+mongo_hosts=                   "12.345.67.890"
+mongo_database=                "driveaudit"
+mongo_username=                "myadmin"
+mongo_password=                "P2UZKghuUEzTQvTplKiX"
+count_between_log_reset=       1000
+database_name=                 "driveapp"
+user_data_collection=          "driveusers"
+suspect_data_collection=       "badusers"
+log_data_collection =          "log"
+admin_email=                   "emailwithadminaccess@example.com"
+mongo_connect=                 "SHELL: mongo \"mongodb://myadmin:password@ipaddress:27017/driveaudit?authSource=driveaudit\""
+rest_port=                     ":3000"
+frontend_port=                 8080
+backend_port=                  "http://127.0.0.1:8081"
+rest_handler=                  "/driveusers"
+whitelisted_emails_regex=      "email@example.com"

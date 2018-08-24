@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"html/template"
+
 	"github.com/mailjet/mailjet-apiv3-go"
 )
 
@@ -50,8 +51,8 @@ func (r *Request) sendMail() bool {
 	mj := mailjet.NewMailjetClient(publicKey, secretKey)
 
 	param := &mailjet.InfoSendMail{
-		FromEmail: "joshua_schmidt@colpal.com",
-		FromName:  "Joshua Schmidt",
+		FromEmail: getConfig.Email,
+		FromName:  getConfig.Sender_Name,
 		Recipients: []mailjet.Recipient{
 			mailjet.Recipient{
 				Email: to,
